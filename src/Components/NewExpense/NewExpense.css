@@ -1,7 +1,7 @@
 .new-expense {
   background-color: #a892ee;
   padding: 1rem;
-  margin: 2rem auto;
+  margin: 5rem auto 0 auto;
   width: 50rem;
   max-width: 95%;
   border-radius: 12px;
@@ -35,4 +35,10 @@
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
   background-color: #ddb3f8;
+}
+
+.new-expense__button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
